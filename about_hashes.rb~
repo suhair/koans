@@ -60,7 +60,7 @@ class AboutHashes < EdgeCase::Koan
 
     assert_not_equal hash, new_hash
     
-    expected = { "jim" => 54, "amy" => 20, "dan" => 23, "jenny" => 26 }
+    expected = { "jim" => __, "amy" => 20, "dan" => 23, "jenny" => __ }
     assert_equal expected, new_hash
   end
 end
